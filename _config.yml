@@ -10,6 +10,9 @@ email: zx0342@gmail.com
 github:
     username: Igoc
 
+# Theme Configuration
+theme: minimal-mistakes-jekyll
+
 # Plugin Configuration
 plugins:
     - jekyll-feed
