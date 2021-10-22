@@ -12,6 +12,7 @@ github:
 
 # Theme Configuration
 theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default"
 
 # Plugin Configuration
 plugins:
