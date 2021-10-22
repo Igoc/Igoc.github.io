@@ -14,6 +14,9 @@ github:
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
 
+atom_feed:
+    hide: true
+
 # Plugin Configuration
 plugins:
     - jekyll-feed
