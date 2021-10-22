@@ -1,0 +1,4 @@
+# Navigation Configuration
+main:
+    - title: "Home"
+      url: /index.html
