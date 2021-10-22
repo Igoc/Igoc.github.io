@@ -1,0 +1,15 @@
+# Site Configuration
+title: Igoc
+description: Development Blog
+url: ""
+baseurl: ""
+
+# Social Configuration
+email: zx0342@gmail.com
+
+github:
+    username: Igoc
+
+# Plugin Configuration
+plugins:
+    - jekyll-feed

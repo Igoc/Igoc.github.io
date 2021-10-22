@@ -1,0 +1,10 @@
+# Ruby Caches
+Gemfile.lock
+
+# Bundler Caches
+_site/
+vendor/
+
+# Jekyll Caches
+.jekyll-cache/
+.jekyll-metadata/
