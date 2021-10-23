@@ -4,6 +4,19 @@ description: Development Blog
 url: ""
 baseurl: ""
 
+# Author Configuration
+author:
+    name: "류상수"
+    avatar: "https://avatars.githubusercontent.com/u/22683489?v=4"
+    bio: "개발자 블로그"
+    links:
+        - label: "Email"
+          icon: "fas fa-fw fa-envelope-square"
+          url: "mailto:zx0342@gmail.com"
+        - label: "GitHub"
+          icon: "fab fa-fw fa-github"
+          url: "https://github.com/Igoc"
+
 # Social Configuration
 email: zx0342@gmail.com
 
