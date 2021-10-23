@@ -17,12 +17,6 @@ author:
           icon: "fab fa-fw fa-github"
           url: "https://github.com/Igoc"
 
-# Social Configuration
-email: zx0342@gmail.com
-
-github:
-    username: Igoc
-
 # Theme Configuration
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
