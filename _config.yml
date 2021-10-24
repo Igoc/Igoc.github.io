@@ -24,6 +24,15 @@ minimal_mistakes_skin: "default"
 atom_feed:
     hide: true
 
+# Archive Configuration
+category_archive:
+    type: liquid
+    path: /category/
+
+# File Configuration
+include:
+    - _pages
+
 # Plugin Configuration
 plugins:
     - jekyll-feed
