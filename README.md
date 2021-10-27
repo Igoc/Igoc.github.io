@@ -23,3 +23,25 @@ bundle update
 # Serve with hot reload at localhost:4000
 bundle exec jekyll serve --watch
 ```
+
+<br/>
+
+## Usage
+
+### Category
+
+``` html
+---
+title: "<TITLE>"
+layout: archive
+permalink: /category/<CATEGORY>/
+---
+
+{% assign posts = site.categories['<CATEGORY>'] %}
+
+{% for post in posts %}
+    {% include archive-single.html type=page.entries_layout %}
+{% endfor %}
+```
+
+&nbsp; Create HTML files with the above format in **_pages/categories/**.
