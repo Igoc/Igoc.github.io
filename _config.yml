@@ -24,6 +24,9 @@ minimal_mistakes_skin: "default"
 atom_feed:
     hide: true
 
+# Outputting Configuration
+permalink: /:categories/:title/
+
 # Archive Configuration
 category_archive:
     type: liquid
