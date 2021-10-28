@@ -1,11 +1,13 @@
+{% assign sorted_categories = site.categories | sort %}
+
 <nav class="nav__list">
     <input type="checkbox" name="accordion-toc" id="ac-toc"/>
     <label for="ac-toc" style="width: 100%">Category</label>
 
     <ul id="category_tag_menu" class="nav__items">
-        {% for category in site.categories %}
+        {% for category in sorted_categories %}
             <li>
-                <a href="/category/{{ category[0] | downcase }}">{{ category[0] }} ({{ category[1].size }})</a>
+                <a href="/category/{{ category[0] | downcase }}">{{ category[0] | replace: "-", " " }} ({{ category[1].size }})</a>
             </li>
         {% endfor %}
     </ul>

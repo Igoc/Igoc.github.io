@@ -1,0 +1,27 @@
+{% case site.category_archive.type %}
+    {% when "liquid" %}
+        {% assign path_type = "#" %}
+    {% when "jekyll-archives" %}
+        {% assign path_type = nil %}
+{% endcase %}
+
+{% if site.category_archive.path %}
+    {% assign sorted_categories = page.categories | sort %}
+
+    <p class="page__taxonomy">
+        <strong>
+            <i aria-hidden="true" class="fas fa-fw fa-folder-open"></i>
+            {{ site.data.ui-text[site.locale].categories_label | default: "Category:" }}
+        </strong>
+
+        <span itemprop="keywords">
+            {% for category in sorted_categories %}
+                <a href="/category/{{ category | downcase }}" rel="tag" class="page__taxonomy-item p-category">{{ category | replace: "-", " " }}</a>
+
+                {% unless forloop.last %}
+                    <span class="sep">, </span>
+                {% endunless %}
+            {% endfor %}
+        </span>
+    </p>
+{% endif %}
