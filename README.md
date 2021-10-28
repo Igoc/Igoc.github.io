@@ -58,7 +58,7 @@ layout: archive
 permalink: /category/<CATEGORY>/
 ---
 
-{% assign posts = site.categories['<CATEGORY>'] %}
+{% assign posts = site.categories["<CATEGORY>"] %}
 
 {% for post in posts %}
     {% include archive-single.html type=page.entries_layout %}
