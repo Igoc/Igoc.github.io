@@ -1,6 +1,9 @@
 ---
 title: "[Java] 배열을 특정 값으로 초기화하는 방법"
+
 categories: Java
+
+date: 2021-10-28
 last_modified_at: 2021-10-28
 ---
 

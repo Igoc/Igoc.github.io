@@ -1,6 +1,9 @@
 ---
 title: "[Java] 입력 클래스"
+
 categories: Java
+
+date: 2021-10-27
 last_modified_at: 2021-10-27
 ---
 
