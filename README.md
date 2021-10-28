@@ -28,6 +28,27 @@ bundle exec jekyll serve --watch
 
 ## Usage
 
+### Post
+
+``` markdown
+---
+title: "<TITLE>"
+
+categories: <CATEGORY>
+
+date: <DATE>
+last_modified_at: <LAST MODIFIED DATE>
+---
+
+<SUBTITLE>
+{:.notice--primary}
+
+<CONTENT>
+```
+
+&nbsp; Create markdown files with the above format in **_posts/\<CATEGORY>/**. <br/>
+&nbsp; The file name should be the same as **\<DATE>-\<TITLE>.md**. <br/><br/>
+
 ### Category
 
 ``` html
