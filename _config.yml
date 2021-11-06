@@ -3,6 +3,7 @@ title: Igoc
 description: Developer Blog
 url: "https://Igoc.github.io"
 baseurl: ""
+repository: "Igoc/Igoc.github.io"
 
 google_site_verification: "X-pOPUaqQLZEtSUSnzhtqFNtq3odCgPOs4cvgdPYEmo"
 naver_site_verification: "851b5187a818cb269867ce35a2963a0816773037"
@@ -26,6 +27,14 @@ analytics:
     google:
         tracking_id: "G-TS0SD2BT7E"
         anonymize_ip: false
+
+# Comments Configuration
+comments:
+    provider: "utterances"
+    utterances:
+        theme: "github-light"
+        issue_term: "pathname"
+        label: "Comment"
 
 # Theme Configuration
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
