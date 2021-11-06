@@ -20,6 +20,13 @@ author:
           icon: "fab fa-fw fa-github"
           url: "https://github.com/Igoc"
 
+# Analytics Configuration
+analytics:
+    provider: "google-gtag"
+    google:
+        tracking_id: "G-TS0SD2BT7E"
+        anonymize_ip: false
+
 # Theme Configuration
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 minimal_mistakes_skin: "default"
