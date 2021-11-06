@@ -64,6 +64,7 @@ defaults:
           layout: single
           author_profile: true
           sidebar_category: true
+          comments: true
     - scope:
           path: ""
           type: pages
