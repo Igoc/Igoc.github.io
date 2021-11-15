@@ -77,3 +77,8 @@ plugins:
     - jekyll-sitemap
     - jekyll-feed
     - jekyll-include-cache
+
+whitelist:
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-include-cache
