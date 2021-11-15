@@ -74,5 +74,6 @@ defaults:
 
 # Plugin Configuration
 plugins:
+    - jekyll-sitemap
     - jekyll-feed
     - jekyll-include-cache
