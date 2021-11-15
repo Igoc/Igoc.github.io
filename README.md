@@ -6,7 +6,7 @@
 
 ``` bash
 # Install ruby packages
-gem install jekyll bundler github-pages
+gem install jekyll bundler
 ```
 
 <br/>
