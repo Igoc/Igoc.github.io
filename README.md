@@ -38,11 +38,6 @@ categories: <CATEGORY>
 
 date: <DATE>
 last_modified_at: <LAST MODIFIED DATE>
-
-# Front matter for sitemap (Optional)
-sitemap:
-    change_frequency: <CHANGE FREQUENCY>
-    priority: <PRIORITY>
 ---
 
 <SUBTITLE>
