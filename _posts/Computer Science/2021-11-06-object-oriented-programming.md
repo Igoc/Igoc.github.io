@@ -4,7 +4,7 @@ title: "[Computer Science] 객체 지향 프로그래밍 (OOP, Object Oriented P
 categories: Computer-Science
 
 date: 2021-11-06
-last_modified_at: 2021-11-06
+last_modified_at: 2021-11-19
 ---
 
 객체 지향 프로그래밍에 대한 정리
@@ -56,5 +56,5 @@ last_modified_at: 2021-11-06
 | S | 단일 책임 원칙 (SRP, Single Responsibility Principle) | 모든 클래스는 하나의 책임만 가지며, 클래스가 제공하는 모든 서비스는 그 하나의 책임을 수행하는 데 집중되어 있어야 한다는 원칙 |
 | O | 개방-폐쇄 원칙 (OCP, Open-Closed Principle) | 소프트웨어 요소는 확장에는 열려있으나, 수정에는 닫혀있어야 한다는 원칙 |
 | L | 리스코프 치환 원칙 (LSP, Liskov Substitution Principle) | 하위 클래스의 객체는 언제나 자신의 상위 클래스 객체로 치환 가능해야 한다는 원칙 |
-| I | 인터페이스 분리 원칙 (ISP, Interface Segregation Principle) | 클래스는 자신이 사용하지 않는 함수를 구현하면 안된다는 원칙 |
+| I | 인터페이스 분리 원칙 (ISP, Interface Segregation Principle) | 클래스는 자신이 사용하지 않는 인터페이스를 구현하지 않아야 한다는 원칙 |
 | D | 의존 역전 원칙 (DIP, Dependency Inversion Principle) | 상위 클래스가 하위 클래스에 의존하면 안된다는 원칙 |
