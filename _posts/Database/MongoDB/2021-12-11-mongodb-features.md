@@ -16,10 +16,10 @@ MongoDB의 특징에 대한 정리
 
 [![Document 데이터베이스](https://docs.mongodb.com/manual/images/crud-annotated-document.bakedsvg.svg)](https://docs.mongodb.com/manual/introduction/)
 
-- JSON, XML 등과 같이 구조화된 Document를 레코드로 갖는 데이터베이스
-- MongoDB는 레코드를 JSON 형식과 유사하게 Field-Value 쌍으로 지정
-- Field의 값으로는 일반적인 값뿐만 아니라, Document, 배열, Document 배열 또한 지정 가능
-- MongoDB에서는 이러한 Document를 관계형 데이터베이스의 테이블과 유사한 Collections에 저장
+- JSON, XML 등과 같이 구조화된 Document를 데이터로 갖는 데이터베이스
+- MongoDB는 데이터를 Field-Value 쌍을 갖는 [BSON](https://bsonspec.org/) 형태로 관리
+- Value는 일반적인 값뿐만 아니라, Document, 배열, Document 배열 또한 지정 가능
+- MongoDB에서는 이러한 Document를 관계형 데이터베이스의 테이블과 유사한 Collection에 저장
 
 ### 고성능
 
