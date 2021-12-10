@@ -46,6 +46,9 @@ atom_feed:
 # Outputting Configuration
 permalink: /:categories/:title/
 
+paginate: 5
+paginate_path: /page:num/
+
 # Archive Configuration
 category_archive:
     type: liquid
@@ -77,8 +80,10 @@ plugins:
     - jekyll-sitemap
     - jekyll-feed
     - jekyll-include-cache
+    - jekyll-paginate
 
 whitelist:
     - jekyll-sitemap
     - jekyll-feed
     - jekyll-include-cache
+    - jekyll-paginate
