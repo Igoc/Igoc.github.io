@@ -3,8 +3,8 @@ title: "[MongoDB] Collection"
 
 categories: Database
 
-date: 2021-12-11
-last_modified_at: 2021-12-11
+date: 2021-12-13
+last_modified_at: 2021-12-13
 ---
 
 MongoDB의 Collection에 대한 정리
