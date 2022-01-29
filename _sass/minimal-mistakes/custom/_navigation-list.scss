@@ -1,0 +1,96 @@
+.nav__list {
+    margin-bottom: 1.5em;
+
+    input[type="checkbox"],
+    label {
+        display: none;
+    }
+
+    @include breakpoint(max-width $large - 1px) {
+        label {
+            display: inline-block;
+            position: relative;
+            z-index: initial;
+            padding: 0.5em 2.5em 0.5em 1em;
+            border: 1px solid $light-gray;
+            border-radius: $border-radius;
+            color: $gray;
+            font-size: $type-size-6;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.2s ease-out;
+            -webkit-transition: 0.2s ease-out;
+
+            &::before,
+            &::after {
+                position: absolute;
+                top: 1.25em;
+                right: 1em;
+                width: 0.75em;
+                height: 0.125em;
+                line-height: 1;
+                background-color: $gray;
+                content: "";
+                transition: 0.2s ease-out;
+                -webkit-transition: 0.2s ease-out;
+            }
+
+            &::after {
+                transform: rotate(90deg);
+                -webkit-transform: rotate(90deg);
+                -ms-transform: rotate(90deg);
+            }
+
+            &:hover {
+                border-color: $gray;
+                background-color: mix(#FFFFFF, #000000, 20%);
+                color: #FFFFFF;
+
+                &::before,
+                &::after {
+                    background-color: #FFFFFF;
+                }
+            }
+        }
+
+        input:checked + label {
+            background-color: mix(#FFFFFF, #000000, 20%);
+            color: #FFFFFF;
+
+            &::before,
+            &::after {
+                background-color: #FFFFFF;
+            }
+        }
+
+        label:hover::after {
+            transform: rotate(90deg);
+            -webkit-transform: rotate(90deg);
+            -ms-transform: rotate(90deg);
+        }
+
+        input:checked + label:hover::after {
+            transform: rotate(0);
+            -webkit-transform: rotate(0);
+            -ms-transform: rotate(0);
+        }
+
+        ul {
+            margin-bottom: 1em;
+        }
+
+        a {
+            display: block;
+            padding: 0.25em 0;
+
+            @include breakpoint($large) {
+                padding-top: 0.125em;
+                padding-bottom: 0.125em;
+            }
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
