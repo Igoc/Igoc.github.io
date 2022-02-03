@@ -6,9 +6,42 @@
 
     <ul id="category_tag_menu" class="nav__items">
         {% for category in sorted_categories %}
-            <li>
-                <a href="/category/{{ category[0] | downcase }}">{{ category[0] | replace: "-", " " }} ({{ category[1].size }})</a>
-            </li>
+            {% assign main_category = category | first %}
+            {% assign posts = category | last %}
+            {% assign first_post = posts | first %}
+
+            {% if main_category == first_post.categories[0] %}
+                {% assign sub_categories = "" | split: "" %}
+
+                {% for post in posts %}
+                    {% assign sub_category = post.categories[1] %}
+
+                    {% if sub_category %}
+                        {% unless sub_categories contains sub_category %}
+                            {% assign sub_categories = sub_categories | push: sub_category %}
+                        {% endunless %}
+                    {% endif %}
+                {% endfor %}
+
+                {% assign sub_categories = sub_categories | sort %}
+                {% assign sub_categories_size = sub_categories | size %}
+
+                <li>
+                    <a href="/category/{{ main_category | downcase }}">
+                        <span class="nav__sub-title">{{ main_category | replace: "-", " " }} ({{ site.categories[main_category] | size }})</span>
+                    </a>
+
+                    {% if sub_categories_size > 0 %}
+                        <ul>
+                            {% for sub_category in sub_categories %}
+                                <li>
+                                    <a href="/category/{{ sub_category | downcase }}">{{ sub_category | replace: "-", " " }} ({{ site.categories[sub_category] | size }})</a>
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </li>
+            {% endif %}
         {% endfor %}
     </ul>
 </nav>
