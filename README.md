@@ -34,7 +34,7 @@ bundle exec jekyll serve --watch
 ---
 title: "<TITLE>"
 
-categories: <CATEGORY>
+categories: [<MAIN CATEGORY>, <SUB CATEGORY>]
 
 date: <DATE>
 last_modified_at: <LAST MODIFIED DATE>
