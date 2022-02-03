@@ -46,7 +46,7 @@ last_modified_at: <LAST MODIFIED DATE>
 <CONTENT>
 ```
 
-&nbsp; Create markdown files with the above format in **_posts/\<CATEGORY>/**. <br/>
+&nbsp; Create markdown files with the above format in **_posts/\<MAIN CATEGORY>/\<SUB CATEGORY>/**. <br/>
 &nbsp; The file name should be the same as **\<DATE>-\<TITLE>.md**. <br/><br/>
 
 ### Category
