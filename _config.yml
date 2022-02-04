@@ -28,6 +28,10 @@ analytics:
         tracking_id: "G-TS0SD2BT7E"
         anonymize_ip: false
 
+# Search Configuration
+search: true
+search_full_content: true
+
 # Comments Configuration
 comments:
     provider: "utterances"
