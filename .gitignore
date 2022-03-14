@@ -1,3 +1,6 @@
+# OS Caches
+.DS_Store
+
 # Ruby Caches
 Gemfile.lock
 
