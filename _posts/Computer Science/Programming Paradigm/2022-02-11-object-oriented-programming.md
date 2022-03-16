@@ -5,7 +5,7 @@ categories: [Computer-Science, Programming-Paradigm]
 tags: [Programming Paradigm, Object Oriented Programming, OOP]
 
 date: 2022-02-11T14:20:00+09:00
-last_modified_at: 2022-02-11T14:20:00+09:00
+last_modified_at: 2022-03-16T17:25:00+09:00
 ---
 
 객체 지향 프로그래밍(OOP)에 대한 정리
@@ -45,7 +45,7 @@ last_modified_at: 2022-02-11T14:20:00+09:00
 ### 클래스
 
 - 역할을 실제로 수행할 수 있도록 상태와 행위를 구현한 것에 해당한다.
-- 클래스에서 구현한 내용을 통해 애플리케이션 상에서 동작하는 객체를 생성하게 된다.
+- 클래스에서 구현한 내용을 통해 애플리케이션 상에서 동작하는 인스턴스를 생성하게 된다.
 
 ## 객체 지향 프로그래밍의 특징
 
@@ -96,7 +96,7 @@ class Main {
 
 예시를 위해 위와 같이 '할인 가격을 계산하라'라는 메시지를 이해할 수 있는 `DiscountPolicy` 인터페이스를 정의하였다. 또한 해당 인터페이스를 상속해 '할인 가격을 계산하라'라는 메시지를 이해하여, 구체적인 행위를 수행하는 `FixDiscountPolicy` 클래스와 `RateDiscountPolicy` 클래스를 구현하였다.
 
-위의 예제에서 `fixDiscountPolicy` 객체와 `rateDiscountPolicy` 객체는 모두 '할인 가격을 계산하라'라는 동일한 메시지를 수신하고 이해할 수 있다. 그러나 객체의 클래스가 `FixDiscountPolicy` 클래스면 고정적으로 1000원을 할인한 가격을 계산하게 되고, `RateDiscountPolicy` 클래스면 10%를 할인한 가격을 계산하게 된다. 이처럼 메시지를 수신하는 객체의 클래스에 따라 세부적인 행위가 달라지는 것을 다형성이라고 한다.
+위의 예제에서 `fixDiscountPolicy` 인스턴스와 `rateDiscountPolicy` 인스턴스는 모두 '할인 가격을 계산하라'라는 동일한 메시지를 수신하고 이해할 수 있다. 그러나 객체의 클래스가 `FixDiscountPolicy` 클래스면 고정적으로 1000원을 할인한 가격을 계산하게 되고, `RateDiscountPolicy` 클래스면 10%를 할인한 가격을 계산하게 된다. 이처럼 메시지를 수신하는 객체의 클래스에 따라 세부적인 행위가 달라지는 것을 다형성이라고 한다.
 
 ## 참고 자료
 
