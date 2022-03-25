@@ -5,7 +5,7 @@ categories: [Computer-Science, Design-Pattern]
 tags: [Design Pattern, Gang of Four, GoF]
 
 date: 2022-03-22T20:10:00+09:00
-last_modified_at: 2022-03-22T20:10:00+09:00
+last_modified_at: 2022-03-25T18:42:00+09:00
 ---
 
 디자인 패턴에 대한 정리
@@ -46,3 +46,7 @@ last_modified_at: 2022-03-22T20:10:00+09:00
 
 - 클래스나 객체들이 상호작용하는 방법과 책임을 분산하는 방법을 정의하는 패턴이다.
 - 런타임 단계에서 다른 객체로 행동이 옮겨가거나 알고리즘이 대체되는 경우에 대한 처리 방법을 제공해준다.
+
+## 참고 자료
+
+- Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, 「Design Patterns: Elements of Reusable Object-Oriented Software」, Addison-Wesley Professional, 1994
