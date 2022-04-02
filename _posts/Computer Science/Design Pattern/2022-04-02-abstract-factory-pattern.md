@@ -24,7 +24,7 @@ last_modified_at: 2022-04-02T03:35:00+09:00
 
 ## 구조
 
-![구조](https://user-images.githubusercontent.com/22683489/161324861-2c7d2cdd-ccd9-4a35-b940-e41391d02b39.png)
+![구조](https://user-images.githubusercontent.com/22683489/161324861-2c7d2cdd-ccd9-4a35-b940-e41391d02b39.png){:.align-center}
 
 ### AbstractFactory
 
@@ -143,7 +143,7 @@ Mouse
 
 ## 예제
 
-![예제](https://user-images.githubusercontent.com/22683489/161340052-7df4b9c4-95f1-431e-adc8-7967d3a55d77.png)
+![예제](https://user-images.githubusercontent.com/22683489/161340052-7df4b9c4-95f1-431e-adc8-7967d3a55d77.png){:.align-center}
 
 OS마다 서로 다른 룩앤필을 갖는 위젯을 생성하기 위해, 위와 같이 추상 팩토리 패턴을 이용한 시스템을 구성하였다.
 
