@@ -9,7 +9,7 @@ last_modified_at: 2022-04-02T03:35:00+09:00
 ---
 
 추상 팩토리(Abstract Factory) 패턴에 대한 정리
-{:notice--primary}
+{:.notice--primary}
 
 ## 의도
 

@@ -9,7 +9,7 @@ last_modified_at: 2022-03-25T18:42:00+09:00
 ---
 
 디자인 패턴에 대한 정리
-{:notice--primary}
+{:.notice--primary}
 
 ## 디자인 패턴이란?
 
