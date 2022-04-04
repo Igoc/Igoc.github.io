@@ -5,7 +5,7 @@ categories: [Computer-Science, Design-Pattern]
 tags: [Design Pattern, Gang of Four, GoF, Builder]
 
 date: 2022-04-03T02:55:00+09:00
-last_modified_at: 2022-04-03T02:55:00+09:00
+last_modified_at: 2022-04-04T22:42:00+09:00
 ---
 
 빌더(Builder) 패턴에 대한 정리
@@ -54,7 +54,7 @@ last_modified_at: 2022-04-03T02:55:00+09:00
 
 ## 구현 방법
 
-일반적으로 빌더 패턴은 각각의 컴포넌트를 생성할 수 있는 연산이 정의된 추상 클래스(Abstract Class)인 `Builder`를 이용해 구현된다. `Builder` 클래스의 각 연산은 기본적으로 아무런 동작도 하지 않도록 구현되어, 이를 상속받은 `ConcreteBuilder` 클래스가 필요로 하는 연산만 오버라이딩 할 수 있도록 만든다.
+일반적으로 빌더 패턴은 각각의 컴포넌트를 생성할 수 있는 오퍼레이션이 정의된 추상 클래스(Abstract Class)인 `Builder`를 이용해 구현된다. `Builder` 클래스의 각 오퍼레이션은 기본적으로 아무런 동작도 하지 않도록 구현되어, 이를 상속받은 `ConcreteBuilder` 클래스가 필요로 하는 오퍼레이션만 오버라이딩 할 수 있도록 만든다.
 
 ## 예제
 
