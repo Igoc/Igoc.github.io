@@ -5,7 +5,7 @@ categories: [Computer-Science, Design-Pattern]
 tags: [Design Pattern, Gang of Four, GoF, Factory Method]
 
 date: 2022-04-08T16:47:00+09:00
-last_modified_at: 2022-04-08T16:47:00+09:00
+last_modified_at: 2022-04-11T16:52:00+09:00
 ---
 
 팩토리 메서드(Factory Method) 패턴에 대한 정리
@@ -258,3 +258,7 @@ class Main {
 - 병렬적인 클래스(Parallel Class) 계층을 연결
     - 어떤 클래스가 가진 책임의 일부를 분리하여 새로운 클래스를 만들 때 병렬적인 클래스 계층이 만들어진다.
     - 병렬적인 클래스 계층에서 책임을 위임한 클래스와 위임받은 클래스는 연결되어야만 하는데, 팩토리 메서드 패턴을 이용하여 각각을 `Creator`와 `Product`로 구현한다면 손쉽게 연결할 수 있다.
+
+## 참고 자료
+
+- Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides, 「Design Patterns: Elements of Reusable Object-Oriented Software」, Addison-Wesley Professional, 1994
