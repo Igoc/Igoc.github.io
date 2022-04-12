@@ -5,7 +5,7 @@ categories: [Computer-Science, Design-Pattern]
 tags: [Design Pattern, Gang of Four, GoF, Factory Method]
 
 date: 2022-04-08T16:47:00+09:00
-last_modified_at: 2022-04-11T16:52:00+09:00
+last_modified_at: 2022-04-12T23:59:00+09:00
 ---
 
 팩토리 메서드(Factory Method) 패턴에 대한 정리
@@ -23,7 +23,9 @@ last_modified_at: 2022-04-11T16:52:00+09:00
 
 ## 구조
 
-![구조](https://user-images.githubusercontent.com/22683489/162392477-a6db77ec-8a06-49a9-8839-ac5c762b9712.png){:.align-center}
+<a href="https://user-images.githubusercontent.com/22683489/162392477-a6db77ec-8a06-49a9-8839-ac5c762b9712.png">
+    ![구조](https://user-images.githubusercontent.com/22683489/162392477-a6db77ec-8a06-49a9-8839-ac5c762b9712.png){:.align-center}
+</a>
 
 ### Product
 
@@ -96,7 +98,9 @@ class ConcreteCreator extends Creator {
 
 ## 예제
 
-![예제](https://user-images.githubusercontent.com/22683489/162409344-26555dcc-e842-4683-a266-e7854e578a21.png){:.align-center}
+<a href="https://user-images.githubusercontent.com/22683489/162409344-26555dcc-e842-4683-a266-e7854e578a21.png">
+    ![예제](https://user-images.githubusercontent.com/22683489/162409344-26555dcc-e842-4683-a266-e7854e578a21.png){:.align-center}
+</a>
 
 동일한 재료를 사용하더라도 버거 가게마다 서로 다른 종류의 버거를 판매한다는 점을 구현하기 위해, 위와 같이 팩토리 메서드 패턴을 이용한 시스템을 구성하였다.
 

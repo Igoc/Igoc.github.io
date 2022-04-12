@@ -5,7 +5,7 @@ categories: [Computer-Science, Design-Pattern]
 tags: [Design Pattern, Gang of Four, GoF, Builder]
 
 date: 2022-04-03T02:55:00+09:00
-last_modified_at: 2022-04-04T22:42:00+09:00
+last_modified_at: 2022-04-12T23:57:00+09:00
 ---
 
 빌더(Builder) 패턴에 대한 정리
@@ -22,7 +22,9 @@ last_modified_at: 2022-04-04T22:42:00+09:00
 
 ## 구조
 
-![구조](https://user-images.githubusercontent.com/22683489/161396023-6c9f7bc1-2c70-4fcc-86e0-a2494972d4c0.png){:.align-center}
+<a href="https://user-images.githubusercontent.com/22683489/161396023-6c9f7bc1-2c70-4fcc-86e0-a2494972d4c0.png">
+    ![구조](https://user-images.githubusercontent.com/22683489/161396023-6c9f7bc1-2c70-4fcc-86e0-a2494972d4c0.png){:.align-center}
+</a>
 
 ### Builder
 
@@ -45,7 +47,9 @@ last_modified_at: 2022-04-04T22:42:00+09:00
 
 ## 협력 방법
 
-![협력 방법](https://user-images.githubusercontent.com/22683489/161396507-891759a0-efeb-4085-a64e-f6e4468fa9c5.png){:.align-center}
+<a href="https://user-images.githubusercontent.com/22683489/161396507-891759a0-efeb-4085-a64e-f6e4468fa9c5.png">
+    ![협력 방법](https://user-images.githubusercontent.com/22683489/161396507-891759a0-efeb-4085-a64e-f6e4468fa9c5.png){:.align-center}
+</a>
 
 - 클라이언트는 `Director` 객체를 생성하고, 해당 객체에 자신이 원하는 `Builder` 객체를 덧붙인다.
 - 디렉터는 구성요소의 부속품을 생성해야 할 때마다 빌더에게 통보(Notification)한다.
@@ -58,7 +62,9 @@ last_modified_at: 2022-04-04T22:42:00+09:00
 
 ## 예제
 
-![예제](https://user-images.githubusercontent.com/22683489/161397358-6733a25b-9dbb-4525-852d-b55bdef3b9b1.png){:.align-center}
+<a href="https://user-images.githubusercontent.com/22683489/161397358-6733a25b-9dbb-4525-852d-b55bdef3b9b1.png">
+    ![예제](https://user-images.githubusercontent.com/22683489/161397358-6733a25b-9dbb-4525-852d-b55bdef3b9b1.png){:.align-center}
+</a>
 
 텍스트 포맷 또는 JSON 포맷으로 To-Do를 생성할 수 있도록 하기 위해, 위와 같이 빌더 패턴을 이용한 시스템을 구성하였다.
 
