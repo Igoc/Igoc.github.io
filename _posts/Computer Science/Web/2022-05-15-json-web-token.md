@@ -5,7 +5,7 @@ categories: [Computer-Science, Web]
 tags: [JSON Web Token, JWT]
 
 date: 2022-05-15T00:15:00+09:00
-last_modified_at: 2022-05-15T00:15:00+09:00
+last_modified_at: 2022-05-24T18:21:00+09:00
 ---
 
 JSON Web Token (JWT)에 대한 정리
@@ -65,4 +65,4 @@ HMACSHA256(
 
 ## 참고 자료
 
-- [JSON Web Tokens - jwt.io](https://jwt.io/)
+- [Introduction to JSON Web Tokens - JWT.IO](https://jwt.io/)
