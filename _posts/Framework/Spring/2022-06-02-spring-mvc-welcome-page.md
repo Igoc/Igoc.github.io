@@ -2,10 +2,10 @@
 title: "Spring MVC Welcome Page"
 
 categories: [Framework, Spring]
-tags: [Spring, Spring Boot, Spring MVC, Spring Web MVC]
+tags: [Spring, Spring Boot, Spring MVC]
 
 date: 2022-06-02T21:47:00+09:00
-last_modified_at: 2022-06-02T21:47:00+09:00
+last_modified_at: 2022-06-06T03:13:00+09:00
 ---
 
 Spring MVC Welcome Page에 대한 정리
