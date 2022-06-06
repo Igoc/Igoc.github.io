@@ -5,7 +5,7 @@ categories: [Framework, Spring]
 tags: [Spring, Spring Boot, Spring MVC, Spring MVC Static Content, Spring MVC Template Engine, Spring API]
 
 date: 2022-06-05T20:21:00+09:00
-last_modified_at: 2022-06-06T08:31:00+09:00
+last_modified_at: 2022-06-06T09:42:00+09:00
 ---
 
 Spring 웹 기초에 대한 정리
@@ -140,8 +140,8 @@ public class UserController {
 
 ### 동작 구조
 
-<a href="https://user-images.githubusercontent.com/22683489/172050845-ad6016b2-055c-48ea-b1ba-2b6cdc68048a.png">
-    ![API - 동작 구조](https://user-images.githubusercontent.com/22683489/172050845-ad6016b2-055c-48ea-b1ba-2b6cdc68048a.png){:.align-center}
+<a href="https://user-images.githubusercontent.com/22683489/172077441-43e2e89f-eafe-49d0-b80b-cb2ab7f4cde9.png">
+    ![API - 동작 구조](https://user-images.githubusercontent.com/22683489/172077441-43e2e89f-eafe-49d0-b80b-cb2ab7f4cde9.png){:.align-center}
 </a>
 
 1. 웹 브라우저에서 localhost:8080/user에 GET 요청을 보낸다.
