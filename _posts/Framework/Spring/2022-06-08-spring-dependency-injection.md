@@ -5,7 +5,7 @@ categories: [Framework, Spring]
 tags: [Spring, Spring Boot, Spring Dependency Injection, Spring DI]
 
 date: 2022-06-08T16:40:00+09:00
-last_modified_at: 2022-06-08T16:40:00+09:00
+last_modified_at: 2022-06-09T10:31:00+09:00
 ---
 
 Spring 의존성 주입(Dependency Injection)에 대한 정리
@@ -21,7 +21,7 @@ Spring 의존성 주입(Dependency Injection)에 대한 정리
 
 ### 생성자 주입(Constructor Injection)
 
-다음과 같이 생성자에 `@Autowired` 어노테이션을 적용해서 의존성을 주입받을 수 있으며, 스프링에서 가장 권장하고 있는 방식이다. 만약 단일 생성자만 가지고 있다면 `@Autowired` 어노테이션을 생략할 수 있다.
+다음과 같이 생성자에 `@Autowired` 어노테이션을 적용해서 의존성을 주입받을 수 있으며, 스프링에서 가장 권장하고 있는 방식이다. 만약 클래스가 단일 생성자만 가지고 있다면 `@Autowired` 어노테이션을 생략할 수 있다.
 
 ``` java
 @Controller
